@@ -1,7 +1,7 @@
 const {
   postgresSequelize,
   Sequelize,
-} = require("../helpers/postgresdb.helper");
+} = require("../helpers/postgresDB.helper");
 
 const executePostgresQuery = async (query, replacements, oneRecord) => {
   try {
